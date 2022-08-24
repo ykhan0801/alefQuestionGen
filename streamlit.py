@@ -3,7 +3,7 @@ from AlefDifferent import questions
 
 finalText = ""
 selectedQ = st.selectbox(
-        "Question:", ("Trapezoid", "Triangle", "Pyramid", "Length", "Median"),key=f"id{1}")
+        "Question:", ("Trapezoid", "Triangle", "Pyramid", "Length", "Median", "RA Triangle"),key=f"id{1}")
 quantity = int(st.text_input("Quantity", value="0"))
 
 if st.button("Run"):
